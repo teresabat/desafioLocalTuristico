@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+:root {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f4f0;
+}
+
+#page {
+  box-sizing: border-box;
+  width: 1120px;
+  margin: 88px auto;
+}
+
+img {
+  width: 1120px;
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+.headline {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-headline);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: var(--text-primary);
+}
+
+h2 {
+  color: var(--text-primary);
+  font-size: 32px;
+}
+
+p {
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+#img-busan {
+  height: 660px;
+}
+
+#descricao img {
+  margin-bottom: 24px;
+}
+
+#subtitulo {
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.divisor {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9d9;
+}
+
+#primeiro-divisor {
+  margin-bottom: 64px;
+}
+
+div > .headline {
+  margin-bottom: 2px;
+}
+
+main > section > .divisor + div {
+  margin-bottom: 8px;
+}
+
+#destinos {
+  margin-top: 64px;
+}
+
+#card-templo-haedong,
+#card-templo-bomeo {
+  margin-bottom: 48px;
+}
+
+.card > img {
+  margin-bottom: 20px;
+}
+
+#segundo-divisor {
+  margin: 40px 0 40px;
+}
+
+img + #container-templo-bomeo > h3 {
+  margin-bottom: 4px;
+}
+
+.bom-para {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 14px 0px 2px;
+}
+
+ul {
+  margin-left: 19px;
+}
+
+li {
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: var(--text-secondary);
+}
+
+.lista-card .historia {
+  color: var(--accent-blue);
+  font-weight: bold;
+}
+
+#casais {
+  color: var(--accent-purple);
+}
+
+#familias {
+  color: var(--accent-pink);
+}
+
+#orcamentos {
+  color: var(--accent-orange);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 66px 0 47px;
+}
+
+img#coracao {
+  width: 14px;
+  height: 12px;
+  vertical-align: center;
+}
